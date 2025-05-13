@@ -15,7 +15,7 @@ A simple, elegant, and responsive Todo List application with priority tagging, t
 
 
 
-🚀 Live Demo | 🔗 Live App
+🚀 Live Demo | 🔗 [Live App](https://todo-app-praveenkumarr26s-projects.vercel.app/)
 
 🛠️ Tech Stack
 HTML5
