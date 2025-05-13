@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📝 Todo App</h1>
+    <button id="theme-toggle">🌙</button>
+  </header>
+
+  <form id="todo-form">
+    <div class="form-group">
+      <input type="text" id="todo-input" placeholder="Add a new task..." required />
+      <button type="submit" class="btn-primary">Add</button>
+    </div>
+    <div class="priority-group">
+      <label>Priority:</label>
+      <button type="button" class="priority-btn high active" data-priority="high">High</button>
+      <button type="button" class="priority-btn medium" data-priority="medium">Medium</button>
+      <button type="button" class="priority-btn low" data-priority="low">Low</button>
+    </div>
+  </form>
+
+  <ul id="todo-items"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
